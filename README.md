@@ -14,16 +14,15 @@ Welcome to the Phonebook Application!
 
 ### Installation
 
-1. Clone the repository to your local machine.
+1. Clone the repository to your PC 💻 
    
        https://github.com/dilshodbek-abdullayev/PhoneBookApp
-
    
 ## Usage
 
 When you run the application, you will see a menu with the following options:
 
-            Welcome to the Phonebook Console Application
+            Welcome to the Phonebook Application
 
             Menu:
             1. My contacts
@@ -109,11 +108,3 @@ public static void DeleteById()
         }
 ```
 5. **Exit Program**: This will exit the application.
-
-### Example
-
-1. To view all contacts, enter `1` and press `Enter`.
-2. To add a new contact, enter `2` and follow the prompts.
-3. To edit an existing contact, enter `3` and follow the prompts.
-4. To delete a contact, enter `4` and follow the prompts.
-5. To exit the application, enter `5`.
