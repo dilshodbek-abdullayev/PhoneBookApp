@@ -23,7 +23,7 @@ When you run the application, you will see a menu with the following options:
 
 ### Options
 
-1. **My contacts**: This will display all the contacts in the phonebook.
+1. **My contacts**:
 ```bash
  public static void ShowAllContact()
         {
@@ -40,7 +40,7 @@ When you run the application, you will see a menu with the following options:
             }
         }
 ```
-2. **Add contact**: This will prompt you to add a new contact.
+2. **Add contact**: 
 ```bash
  public static void AddContact()
         {
@@ -53,7 +53,7 @@ When you run the application, you will see a menu with the following options:
             Console.WriteLine("Contact succesfully added");
         }
 ```
-3. **Edit contact**: This will prompt you to edit an existing contact.
+3. **Edit contact**: 
 ```bash
  public static void UpdateByIdContact()
         {
@@ -76,7 +76,7 @@ When you run the application, you will see a menu with the following options:
             }
         }
 ```
-4. **Delete contact**: This will prompt you to delete a contact.
+4. **Delete contact**: 
 ```bash
 public static void DeleteById()
         {
