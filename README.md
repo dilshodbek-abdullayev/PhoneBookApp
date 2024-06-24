@@ -2,16 +2,6 @@
 
 Welcome to the Phonebook Application!
 
-## Features
-
-- **View Contacts**: Display all contacts stored in the phonebook.
-- **Add Contact**: Add a new contact to the phonebook.
-- **Edit Contact**: Edit an existing contact in the phonebook.
-- **Delete Contact**: Delete a contact from the phonebook.
-- **Exit Program**: Exit the application.
-
-## Getting Started
-
 ### Installation
 
 1. Clone the repository to your PC 💻 
