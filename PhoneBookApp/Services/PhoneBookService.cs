@@ -51,6 +51,24 @@ namespace PhoneBookApp.Services
                 Console.WriteLine("Invalid ID number");
             }
         }
+        public static void DeleteById()
+        {
+
+            ShowAllContact();
+            Console.Write("Select the ID you want to delete");
+            int inputId = Convert.ToInt32(Console.ReadLine());
+            
+            if(inputId > 0 && inputId<= phoneContact.Count)
+            {
+                inputId--;
+                phoneContact.RemoveAt(inputId);
+                Console.WriteLine("Successfully deleted");
+            }
+            else
+            {
+                Console.WriteLine("Invalid ID");
+            }
+        }
 
     }
 }
